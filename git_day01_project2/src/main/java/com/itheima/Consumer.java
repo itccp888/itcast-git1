@@ -1,5 +1,7 @@
 package com.itheima;
 
+import java.util.Date;
+
 /**
  * @Author ccp
  * @Date 2018/10/20 11:41
@@ -7,9 +9,18 @@ package com.itheima;
 public class Consumer {
     private Integer id;
     private String name;
+    private Date birthday;
 
     private String address;
     private String password;
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
 
     public Integer getId() {
         return id;
